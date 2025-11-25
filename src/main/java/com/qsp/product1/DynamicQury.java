@@ -18,9 +18,9 @@ public class DynamicQury {
 			String sql = "INSERT INTO product1 VALUES(?,?,?)";
 
 			PreparedStatement p = con.prepareStatement(sql);
-			p.setInt(1, 401);
-			p.setString(2, "Google");
-			p.setDouble(3, 40000);
+			p.setInt(1, 501);
+			p.setString(2, "Poco");
+			p.setDouble(3, 50000);
 
 			p.execute();
 			System.out.println("Data is Inserted ");
